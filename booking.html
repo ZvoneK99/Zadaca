@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <meta name="author" content="Zvonimir Kožul">
+    <meta name="description" content="Zadaća iz predmeta Razvoj Web Aplikacija">
+    <title>Booking</title>
+</head>
+<body>
+    <div>
+        <h1>Booking</h1>
+        <hr>
+        <p>Možete nas kontaktirati putem kontakt obrasca za booking ili direktno telefonom/e-mailom. 
+            Molimo Vas da u upitu navedete što više detalja.</p>
+        <hr>
+        <div class="podatci">
+            <form>
+                <label for="ime">Vaše Ime:<br></label>
+                <input type="text" id="ime" name="ime" required placeholder="Luka Lukić"><br>
+                <label for="email">Vaša Email adresa:<br></label>
+                <input type="email" id="email" name="email" placeholder="lukalukic@email.com" required>
+                <label for="poruka"><br>Poruka:<br></label>
+                <textarea id="poruka" name="poruka" rows="4"></textarea><br>
+                <button type="submit" class="submit">Pošalji</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
